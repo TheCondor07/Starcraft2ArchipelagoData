@@ -35,6 +35,9 @@ link to this folder there labeled 'Documents'.
 4. Find a folder labeled 'Starcraft 2' and copy it.
 5. Paste this Starcraft 2 folder into the folder created or found in step 2.
 
+These steps have been shown to work for some people for some people having issues with launching the game.  If you are 
+still having issues check out our [Discord](https://discord.com/invite/8Z65BR2) for help.
+
 # Gameplay changes
 * Both versions of each branching mission is available to play and is required to be played to get all items, IE: Havens Fall/Safe Haven.
 * Conflicting researches in the labatory are both available except for the ones outlined within the Starcraft 2 yaml file.
