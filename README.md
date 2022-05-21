@@ -17,6 +17,24 @@ Either navigate into the Support64 folder of your Starcraft 2 installation and c
 
 The randomizer should now be playable through the Starcraft 2 Client application in your Archipelago installation.
 
+# Issues
+Sometimes you may see the message 'Archipelago unable to connect or has lost connection to Starcraft 2' appear in Starcraft 2.  If this appears at the start of a mission it is 99% of the time a non-issue and you an error that you can safely ignore.  On some computers the time it takes for the client to connect to Starcraft 2 causes it to think connection was lost when it wasn't.
+
+# Game isn't launching when I type /play
+
+First check the log file for issues (stored at [Archipelago Directory]/logs/SC2Client.txt. There is sometimes an issue 
+where the client can not find Starcraft 2.  Usually Documents/Starcraft 2/ExecuteInfo.txt is checked to find where 
+Starcraft 2 is installed. On some computers particularly if you have OneDrive running this may  fail.  The following 
+directions may help you in this case if you are on Windows. 
+
+1. Navigate to '%userprofile%'.  Easiest way to do this is to hit Windows key+R type in %userprofile% and hit run or 
+type in %userprofile% in the navigation bar of your file explorer. 
+2. If it does not exist create a folder in her named 'Documents'.
+3. Locate your 'My Documents' folder on your pc.  If you navigate to 'My PC' on the sidebar of file explorer should be a
+link to this folder there labeled 'Documents'.
+4. Find a folder labeled 'Starcraft 2' and copy it.
+5. Paste this Starcraft 2 folder into the folder created or found in step 2.
+
 # Gameplay changes
 * Both versions of each branching mission is available to play and is required to be played to get all items, IE: Havens Fall/Safe Haven.
 * Conflicting researches in the labatory are both available except for the ones outlined within the Starcraft 2 yaml file.
