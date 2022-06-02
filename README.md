@@ -21,6 +21,7 @@ The randomizer should now be playable through the Starcraft 2 Client application
 Sometimes you may see the message 'Archipelago unable to connect or has lost connection to Starcraft 2' appear in Starcraft 2.  If this appears at the start of a mission it is 99% of the time a non-issue and you an error that you can safely ignore.  On some computers the time it takes for the client to connect to Starcraft 2 causes it to think connection was lost when it wasn't.
 
 # Game isn't launching when I type /play
+If your Starcraft II is not installed at C:/Programs Files(x86)/Starcraft II, there may be issues trying to run your game.  If you run into that issue, the workaround below may help, but if not your only solution for now is to change your install directory to C:/Programs Files(x86)/Starcraft II or wait until we find a solution to the issue.
 
 First check the log file for issues (stored at [Archipelago Directory]/logs/SC2Client.txt. There is sometimes an issue 
 where the client can not find Starcraft 2.  Usually Documents/Starcraft 2/ExecuteInfo.txt is checked to find where 
