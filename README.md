@@ -18,6 +18,8 @@ Either navigate into the Support64 folder of your Starcraft 2 installation and c
 The randomizer should now be playable through the Starcraft 2 Client application in your Archipelago installation.
 
 # Issues
+If you run StarCraft II in a language other then English then you will be unable to see Archipelago messages in-game.
+
 Sometimes you may see the message 'Archipelago unable to connect or has lost connection to Starcraft 2' appear in Starcraft 2.  If this appears at the start of a mission it is 99% of the time a non-issue and you an error that you can safely ignore.  On some computers the time it takes for the client to connect to Starcraft 2 causes it to think connection was lost when it wasn't.
 
 # Game isn't launching when I type /play
