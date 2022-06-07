@@ -13,7 +13,7 @@ Locate the file directory of your Starcraft 2 installation, this can be done in 
 
 Extract Starcraft2_Data.zip into your Starcraft 2 directory.
 
-Either navigate into the Support64 folder of your Starcraft 2 installation and copy icudt52.dll, icuin52.dll, icuuc52.dll files, pasting them into the lib folder of your Archipelago installation.  These dlls are also available through the release page as well.
+Navigate into the Support64 folder of your Starcraft 2 installation and copy the icudt52.dll, icuin52.dll, icuuc52.dll files, and then paste them into the lib folder of your Archipelago installation. These dlls are also available through the release page as well.
 
 The randomizer should now be playable through the Starcraft 2 Client application in your Archipelago installation.
 
