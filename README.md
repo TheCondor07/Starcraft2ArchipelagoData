@@ -1,46 +1,47 @@
 # General
-Starcraft 2 Archipelago Randomizer will randomize when you obtain unit unlocks, armory upgrades, and labatory research through the Wings of Liberty campaign. The logic makes sure that each game you play is beatable.
+The StarCraft 2 Archipelago Randomizer will randomize when you obtain unit unlocks, armory upgrades, and laboratory
+research through the Wings of Liberty campaign. The logic makes sure that each game you play is beatable.
 
-Unlike traditional randomizers, this randomizer will not alter the rom or exe of the game, instead it loads the game normally and alters its state in memory.
-Save files will be loaded & stored in folder different from the normal game so they are not at risk.
+Unlike traditional randomizers, this randomizer does not alter the ROM or .exe of the game. Instead, it loads the game
+"normally" and communicates with it using the StarCraft 2 API.
+
+No save files are affected by the randomizer.
 
 Armory upgrades, Labatory research, and Mercenary unlocks will not be purchasable normally.  Instead, these are obtained by doing side objectives on a mission, completing the objective will instantly give you a random unlock/upgrade for the rest of the campaign.
 
-# Installation \ Startup
-Download latest Starcraft2_Data zip file from the release page https://github.com/TheCondor07/Starcraft2ArchipelagoData/releases
+# Installation / Startup
 
-Locate the file directory of your Starcraft 2 installation, this can be done in the Blizzard Launcher by clicking the gear icon next the play button for Starcraft 2 and then clicking 'Show in Explorer'.
+1. Download the latest Starcraft2_Data zip file from the
+[release page](https://github.com/TheCondor07/Starcraft2ArchipelagoData/releases).
 
-Extract Starcraft2_Data.zip into your Starcraft 2 directory.
+2. Find your StarCraft 2 installation folder. Do not open it.
+   - You can find this folder using the Battle.net program. Open Battle.net and go to StarCraft II. Click on the gear
+     button (next to the "Play" button), then click 'Show in Explorer'. A window should appear with the StarCraft II
+     installation folder highlighted.
 
-Navigate into the Support64 folder of your Starcraft 2 installation and copy the icudt52.dll, icuin52.dll, icuuc52.dll files, and then paste them into the lib folder of your Archipelago installation. These dlls are also available through the release page as well.
+3. Open Starcraft2_Data.zip. Inside is a Maps folder and a Mods folder. Highlight both of them and drag them _directly_
+   onto your StarCraft 2 installation folder.
 
-The randomizer should now be playable through the Starcraft 2 Client application in your Archipelago installation.
+You have finished all StarCraft 2-specific setup.
+Read the general setup guides about how to use the website to generate a game and host a server; you still need to
+do both of those things before you can connect to that server using ArchipelagoStarcraft2Client.exe and start playing.
 
 # Issues
-If you run StarCraft II in a language other then English then you will be unable to see Archipelago messages in-game.
+If you run StarCraft II in a language other then English, then you will be unable to see Archipelago messages in-game.
 
-Sometimes you may see the message 'Archipelago unable to connect or has lost connection to Starcraft 2' appear in Starcraft 2.  If this appears at the start of a mission it is 99% of the time a non-issue and you an error that you can safely ignore.  On some computers the time it takes for the client to connect to Starcraft 2 causes it to think connection was lost when it wasn't.
+Sometimes, you may see the message 'Archipelago unable to connect or has lost connection to Starcraft 2' appear in-game.
+If this appears at the start of a mission, it is 99% of the time a non-issue, and you can
+safely ignore it.
+- On some computers, the time it takes for the client to connect to Starcraft 2 makes it think the
+  connection failed even though the connection succeeded.
 
-# Game isn't launching when I type /play
-If your Starcraft II is not installed at C:/Programs Files(x86)/Starcraft II, there may be issues trying to run your game.  If you run into that issue, the workaround below may help, but if not your only solution for now is to change your install directory to C:/Programs Files(x86)/Starcraft II or wait until we find a solution to the issue.
+# Game isn't launching when I type /play or click on a mission
+You probably have not put the `Maps` and `Mods` folders in the correct spots. They should end up at `StarCraft II\Maps`
+and `StarCraft II\Mods`, where `StarCraft II` is the installation folder described in step 2 above. Triple-check that
+you have installed those two folders in exactly those two locations.
 
-First check the log file for issues (stored at [Archipelago Directory]/logs/SC2Client.txt. There is sometimes an issue 
-where the client can not find Starcraft 2.  Usually Documents/Starcraft 2/ExecuteInfo.txt is checked to find where 
-Starcraft 2 is installed. On some computers particularly if you have OneDrive running this may  fail.  The following 
-directions may help you in this case if you are on Windows. 
-
-1. Navigate to '%userprofile%'.  Easiest way to do this is to hit Windows key+R type in %userprofile% and hit run or 
-type in %userprofile% in the navigation bar of your file explorer. 
-2. If it does not exist create a folder in her named 'Documents'.
-3. Locate your 'My Documents' folder on your pc.  If you navigate to 'My PC' on the sidebar of file explorer should be a
-link to this folder there labeled 'Documents'.
-4. Find a folder labeled 'Starcraft 2' and copy it.
-5. Paste this Starcraft 2 folder into the folder created or found in step 2.
-
-These steps have been shown to work for some people for some people having issues with launching the game.  If you are 
-still having issues check out our [Discord](https://discord.com/invite/8Z65BR2) for help.
+If you are still having issues, check out `#tech-support` on our [Discord](https://discord.com/invite/8Z65BR2) for help.
 
 # Gameplay changes
 * Both versions of each branching mission is available to play and is required to be played to get all items, IE: Havens Fall/Safe Haven.
-* Conflicting researches in the labatory are both available except for the ones outlined within the Starcraft 2 yaml file.
+* Conflicting researches in the laboratory are both available except for the ones outlined within the Starcraft 2 yaml file.
